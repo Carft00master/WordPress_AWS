@@ -1,0 +1,10 @@
+systemctl status httpd
+mkdir temp
+cd temp
+wget https://www.free-css.com/assets/files...
+unzip complex.zip
+cd complex
+ls -lrt
+mv * /var/www/html
+systemctl enable httpd
+systemctl start httpd
